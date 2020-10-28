@@ -4,42 +4,43 @@ namespace OddOrEven
 {
     class Program
     {
+
+        /*
+          
+            Step 1:
+            Fork this project: 
+            https://github.com/mvdoyle/OddOrEven
+
+            Step 2: Clone the project to your machine
+                cd repos
+                cd OddOrEven
+    
+
+            Step 3: Open the project in Visual Studio Community 2019
+                Open solution file - OddOrEven.sln
+    
+            Step 4: Go outside the scope of your main method and define your own method that accepts an integer as a parameter and determines if that integer is odd.
+
+                Checklist: step 1 done
+                           step 2 done
+                           step 3 done  
+                           
+                            
+         
+         */
         static void Main(string[] args)
         {
-            // Executing
-
-            Console.WriteLine(IsOdd(5));
 
 
-
-
+ 
         }
 
-        //Step 4 Creating own method
 
-        public static bool IsOdd(int num)
-        {
+        //Step 4
 
 
-            if (num % 2 == 0)
-            {
-
-                Console.WriteLine(" is true");
-                return false;
-
-            }
-
-            else
-            {
-                Console.WriteLine(" is even");
-                return true;
-
-            }
-
-
-
-        }
     }
 }
+
 
 
