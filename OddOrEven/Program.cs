@@ -31,12 +31,38 @@ namespace OddOrEven
         static void Main(string[] args)
         {
 
-
+            Console.WriteLine(isOdd(0));
  
         }
 
 
         //Step 4
+
+       public static bool isOdd(int num)
+        {
+
+
+            if (num % 5 == 0)
+            {
+
+                Console.WriteLine("is even");
+
+                return false;
+
+            }
+
+
+            else
+            {
+
+
+                Console.WriteLine("is odd");
+
+                return true;
+
+
+            }
+        }
 
 
     }
